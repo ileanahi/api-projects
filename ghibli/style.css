@@ -46,7 +46,7 @@ img {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 2px 2px 5px 3px gray;
-    transition: all .1s linear;
+    transition: all .3s linear;
 }
 
 @media screen and (min-width: 600px) {
