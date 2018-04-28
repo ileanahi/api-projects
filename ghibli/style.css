@@ -27,24 +27,26 @@ img {
     margin: 1rem;
     border: 1px solid gray;
     border-radius: 15px;
-    padding: .5em;
-    background: skyblue;
+    padding: .5rem;
+    background: white;
 }
 
 .card h1 {
-    color: black;
+    color: white;
     text-align: center;
     padding: 1rem;
     font-size: 1.5rem;
+    background-color:
 }
 
 .card p {
     color: gray;
+    margin: .5rem;
 }
 
 .card:hover {
-    transform: translateY(10px);
-    box-shadow: 2px 2px 10px 5px gray;
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 5px 3px #f6f6f6;
 }
 
 @media screen and (min-width: 600px) {
