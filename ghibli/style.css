@@ -24,11 +24,11 @@ img {
 }
 
 .card {
-    max-width: 33%;
+    max-width: 100%;
     margin: 1rem;
     border: 1px solid gray;
     border-radius: 15px;
-    background: white;
+    background: #ffebe0;
     box-shadow: 2px 3px 25px rgba(0, 0, 0, .2);
 }
 
@@ -41,7 +41,7 @@ img {
 
 .card p {
     color: gray;
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: justify;
 }
 
