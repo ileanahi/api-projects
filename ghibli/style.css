@@ -3,7 +3,7 @@
 }
 
 #root {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ img {
 }
 
 .card {
+    max-width: 33%;
     margin: 1rem;
     border: 1px solid gray;
     border-radius: 15px;
