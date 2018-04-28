@@ -1,6 +1,7 @@
 #root {
     max-width: 100%;
     margin: 0 auto;
+    font-family: 'Dosis';
 }
 
 .container {
@@ -8,9 +9,25 @@
     flex-wrap: wrap;
 }
 
+img {
+    text-align: center;
+}
+
 .card {
     margin: 1rem;
     border: 1px solid gray;
+    border-radius: 25%;
+    padding: .5em;
+}
+
+.card h1 {
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.card p {
+    color: gray;
 }
 
 @media screen and (min-width: 600px) {
