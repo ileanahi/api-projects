@@ -43,6 +43,7 @@ img {
     color: gray;
     padding: 2rem;
     text-align: justify;
+    background: white;
 }
 
 .card:hover {
