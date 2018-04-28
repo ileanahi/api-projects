@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 #root {
     max-width: 100%;
     margin: 0 auto;
-    font-family: 'Dosis';
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #EAEDED;
 }
 
 .container {
@@ -10,24 +18,34 @@
 }
 
 img {
-    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
 }
 
 .card {
     margin: 1rem;
     border: 1px solid gray;
-    border-radius: 25%;
+    border-radius: 15px;
     padding: .5em;
 }
 
 .card h1 {
     color: white;
-    background-color: skyblue;
     text-align: center;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+    background-image: skyblue;
 }
 
 .card p {
     color: gray;
+    padding:
+}
+
+.card:hover {
+    transform: translateY(2);
+    box-shadow: 2px 2px 5px 6px gray;
 }
 
 @media screen and (min-width: 600px) {
