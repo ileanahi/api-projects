@@ -1,11 +1,11 @@
 var request = new XMLHttpRequest();
 
-request.open("GET", "https://api.coinbase.com/v2/prices/spot?currency=USD", true);
+request.open("GET", "https://exchangeratesapi.io/api/latest?base=USD", true);
 
 request.onload = function() {
     var data = JSON.parse(this.response);
     data.forEach(money => {
-        console.log(money.data.currency);
+        console.log(money.rates);
     });
 }
 
