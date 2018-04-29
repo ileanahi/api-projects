@@ -4,7 +4,7 @@ request.open("GET", "https://exchangeratesapi.io/api/latest?base=USD", true);
 
 request.onload = function() {
         var data = JSON.parse(this.response);
-        data.keys(data).forEach(function(key) {
+        Object.keys(data).forEach(function(key) {
             console.log(data[key]);
         });
 
