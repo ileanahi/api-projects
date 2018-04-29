@@ -5,7 +5,7 @@ request.open("GET", "https://exchangeratesapi.io/api/latest?base=USD", true);
 request.onload = function() {
         var data = JSON.parse(this.response);
 
-        console.log(Object.keys(data));
+        console.log(Object.keys(data[rates][AUD]);
 
-        // Send request
-        request.send();
+                // Send request
+                request.send();
