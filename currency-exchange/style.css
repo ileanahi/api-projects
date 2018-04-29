@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
+select {
+    float: center;
+    margin: 10px;
+    border-radius: 8px;
+}
