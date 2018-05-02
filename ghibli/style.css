@@ -37,8 +37,12 @@ img {
     background: #5fb4c9;
 }
 
+.card:nth-child(odd) h1 {
+    color: #ffebe0;
+}
+
 .card h1 {
-    color: lightgreen;
+    color: #5fb4c9;
     text-align: center;
     padding: 1rem;
     font-size: 1.5rem;
